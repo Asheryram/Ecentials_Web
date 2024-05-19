@@ -7,6 +7,8 @@ import {
 } from "react-router-dom";
 import "./index.css";
 import ErrorPage from "./error-page";
+import "bootstrap/dist/css/bootstrap.css";
+
 // import Home from "./modules/home/pages/home";
 import { pharmacyRoutes } from "./modules/pharmacy/routes";
 import { authRoutes } from "./modules/auth/routes";
@@ -24,18 +26,18 @@ const router = createBrowserRouter([
     element: <PharmacyIndex />,
     children: pharmacyRoutes,
   },
-  {
-    path : "/hospital",
-    errorElement: <ErrorPage />,
-    element: <PharmacyIndex />,
-    children: pharmacyRoutes,
-  },
-  {
-    path : "/lab",
-    errorElement: <ErrorPage />,
-    element: <PharmacyIndex />,
-    children: pharmacyRoutes,
-  },
+  // {
+  //   path : "/hospital",
+  //   errorElement: <ErrorPage />,
+  //   element: <PharmacyIndex />,
+  //   children: pharmacyRoutes,
+  // },
+  // {
+  //   path : "/lab",
+  //   errorElement: <ErrorPage />,
+  //   element: <PharmacyIndex />,
+  //   children: pharmacyRoutes,
+  // },
   
 ]);
 
