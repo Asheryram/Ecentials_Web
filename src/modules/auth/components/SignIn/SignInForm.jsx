@@ -22,8 +22,8 @@ const SignInForm = () => {
   } = useSignInForm();
 
   return (
-    <div className="container d-flex align-items-center justify-content-center" style={{ height: "90vh" ,margin: "20px 500px" }}>
-      <div className="shadow-lg p-4 w-100 mt-5 mx-3 mx-md-0 " >
+    <div className="container d-flex align-items-center justify-content-center" style={{ height: "90vh" }}>
+      <div className="shadow-lg p-4 w-100 mt-5 mx-3 mx-md-0 " style={{ maxWidth: "400px" }}>
         <div className="d-flex justify-content-center">
           <Link to="/" className="mt-4">
             <img src={logo} alt="logo" width={120} />
