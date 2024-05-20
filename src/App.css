@@ -4,3 +4,7 @@ a {
   body{
     background-color: "#007aff0a";
   }
+
+ input[type=text] {
+    outline: none;
+}

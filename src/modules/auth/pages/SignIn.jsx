@@ -5,8 +5,8 @@ const SignIn = () => {
 	return (
 		<>
 			<MetaHelmet title="Sign In" />
-			<SignInForm/>
-      <Footer/>
+			<SignInForm />
+			<Footer />
 		</>
 	);
 };
